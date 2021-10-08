@@ -1,48 +1,15 @@
 // colors
-//$accent: ;
-//$dark: ;
-//$red: ;
-//$blue: ;
-//$dark-blue: ;
-//$yellow: ;
-//$orange: ;
-//$light: ;
-//$border-color: ;
-//$border: 1px solid $border-color;
+$accent: #fff;
+$red: #FF2929;
 
 // fonts
-//$second-font: , sans-serif;
+$roboto: 'Roboto',
+sans-serif;
+
+$container: 142rem;
+$gap: 2rem;
 
 // Typography
-%text-12 {
-    font-size: 12px;
-    line-height: 14px;
-}
-
-%text-14 {
-    font-size: 14px;
-    line-height: 16px;
-}
-
-%text-16 {
-    font-size: 16px;
-    line-height: 18px;
-}
-
-%text-18 {
-    font-size: 18px;
-    line-height: 21px;
-}
-
-%text-20 {
-    font-size: 20px;
-    line-height: 23px;
-}
-
-%text-24 {
-    font-size: 24px;
-    line-height: 29px;
-}
 
 %vertical-align {
     display: flex;

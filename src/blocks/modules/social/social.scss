@@ -1,0 +1,93 @@
+.social {
+    display: flex;
+
+    @media(max-width: 1024px) {
+        display: none;
+    }
+
+    // .social__item
+
+    &__item {
+        width: 4.5rem;
+        //width: 6.9rem;
+        height: 3rem;
+        transform: skewX(-35deg);
+        border-width: 0.1rem;
+        border-style: solid;
+        border-radius: 0.3rem;
+        opacity: 0.5;
+        transition: .3s opacity;
+
+        &:not(:last-child) {
+            margin-right: 1.5rem;
+        }
+
+        @media (any-hover: hover) {
+            &:hover {
+                opacity: 1;
+            }
+        }
+
+        &--fb {
+            background: linear-gradient(180deg, #3A5696 0%, #507EE9 51.04%, #3A5696 100%);
+            border-color: #4F7DE7;
+
+            svg {
+                width: 1.8rem;
+                height: 1.8rem;
+            }
+        }
+
+        &--discord {
+            background: linear-gradient(180deg, #4961C0 0%, #7084D7 51.04%, #4D64C3 100%);
+            border-color: #5D71C2;
+
+            svg {
+                width: 1.9rem;
+                height: 1.8rem;
+            }
+        }
+
+        &--steam {
+            background: linear-gradient(180deg, #091942 0%, #091942 0%, #1E336A 0%, #126A99 51.04%, #1D356C 100%);
+            border-color: #126A99;
+
+            svg {
+                width: 1.9rem;
+                height: 1.7rem;
+            }
+        }
+
+        &--tg {
+            background: linear-gradient(180deg, #1F8DC4 0%, #2DADEE 51.04%, #2090C7 100%);
+            border-color: #2CACED;
+
+            svg {
+                width: 1.9rem;
+                height: 1.8rem;
+            }
+        }
+
+        &--vk {
+            background: linear-gradient(180deg, #4A719E 0%, #6D97C8 51.04%, #4A719E 100%);
+            border-color: #6C96C7;
+
+            svg {
+                width: 2rem;
+                height: 2rem;
+            }
+        }
+    }
+
+    // .social__link
+
+    &__link {
+        width: 100%;
+        height: 100%;
+        @extend %flex-center;
+    }
+
+    svg {
+        transform: skewX(35deg);
+    }
+}

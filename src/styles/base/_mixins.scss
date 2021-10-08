@@ -31,36 +31,3 @@
         height: 0;
     }
 }
-
-/* @mixin round($size, $bg) {
-    width: $size;
-    height: $size;
-    border-radius: 50%;
-    background-color: $bg;
-    @extend %flex-center;
-} */
-
-$maxWidth: 1920px;
-$container: 1140px;
-$gap: 15px;
-
-@mixin adaptive-value($property, $startSize, $minSize) {
-    $addSize=$startSize - $minSize;
-    #{$property}: calc(#{$minSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth - 320}));
-
-    /* @if $type==1 {
-        #{$property}: $startSize + px;
-
-        @media (max-width: #{$container}) {
-            #{$property}: calc(#{$minSize + px} + #{$addSize} * ((100vw - 320px) / #{$container - 320}));
-        }
-    } @else if $type ==2 {
-        #{$property}: $startSize+px;
-
-        @media (min-width: #{$container}) {
-            #{$property}: calc(#{$minSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth - 320}));
-        }
-    } @else {
-        #{$property}: calc(#{$minSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth - 320}));
-    } */
-}

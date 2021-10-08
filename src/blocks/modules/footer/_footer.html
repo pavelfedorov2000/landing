@@ -1,14 +1,18 @@
 <footer class="footer">
-    <div class="footer__top">
+    <!-- <div class="footer__top">
         <div class="container footer__top-inner"></div>
     </div>
     <div class="footer__bottom">
         <div class="container footer__bottom-inner"></div>
-    </div>
+    </div> -->
     <div class="container">
-        <svg class="logo">
-            <use xlink:href="img/sprite.svg#logo"></use>
-        </svg>
+        <div class="footer__logo">
+            <a href="#">
+                <svg class="footer__logo-img" role="img" aria-label="логотип">
+                    <use xlink:href="img/sprite.svg#logo"></use>
+                </svg>
+            </a>
+        </div>
         <div class="logo footer__logo">
             <a class="logo__link" href="#">
                 <img class="logo__img" src="img/logo/footer-logo.png" alt="Логотип">
@@ -116,5 +120,5 @@
         </ul>
     </div>
 
-    <div class="footer__copyright"></div>
+    <p class="footer__copyright"></p>
 </footer>

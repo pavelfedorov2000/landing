@@ -1,53 +1,216 @@
 <header class="header">
-    <div class="header__top">
-        <div class="container header__top-inner">
+    <div class="header__top top-header grid">
+        <button class="top-header__switcher top-header__switcher--active" type="button">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0)">
+                    <path
+                        d="M21.596 8.197C21.4371 8.07923 21.2468 8.01123 21.0492 8.00162C20.8516 7.992 20.6556 8.04121 20.486 8.143L16.303 10.653L12.832 5.44601C12.794 5.38901 12.731 5.36301 12.684 5.31801L13.647 4.35401C13.7402 4.25998 13.7926 4.13293 13.7926 4.00051C13.7926 3.86809 13.7402 3.74103 13.647 3.64701L12.354 2.35401C12.26 2.26076 12.1329 2.20844 12.0005 2.20844C11.8681 2.20844 11.741 2.26076 11.647 2.35401L10.354 3.64701C10.2607 3.74103 10.2084 3.86809 10.2084 4.00051C10.2084 4.13293 10.2607 4.25998 10.354 4.35401L11.317 5.31801C11.269 5.36301 11.207 5.38901 11.169 5.44601L7.69799 10.653L3.51499 8.143C3.34501 8.04176 3.14896 7.99289 2.95135 8.00249C2.75373 8.0121 2.56334 8.07975 2.40399 8.197C2.24555 8.31516 2.12548 8.47742 2.05878 8.66347C1.99208 8.84951 1.98171 9.0511 2.02899 9.24301L4.02899 17.243C4.14099 17.688 4.54099 18.001 4.99999 18.001H19C19.459 18.001 19.859 17.689 19.971 17.243L21.971 9.24301C22.0183 9.0511 22.0079 8.84951 21.9412 8.66347C21.8745 8.47742 21.7544 8.31516 21.596 8.197Z"
+                        fill="#87888A" />
+                    <path d="M4 19.001H20V21.001H4V19.001Z" fill="#87888A" />
+                </g>
+                <defs>
+                    <clipPath id="clip0">
+                        <rect width="24" height="24" fill="white" />
+                    </clipPath>
+                </defs>
+            </svg>
+        </button>
+        <button class="top-header__switcher grid" type="button">
+            <div class="grid top-header__switcher-grid">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </button>
 
+        <div class="top-header__slider header-slider swiper-container">
+            <div class="swiper-wrapper">
+                <a href="#" class="swiper-slide header-slider__item">
+                    <img class="header-slider__item-img" src="img/top-slider/01.png" alt="">
+                    <div class="header-slider__item-descr">The Emperor</div>
+                </a>
+                <a href="#" class="swiper-slide header-slider__item">
+                    <img class="header-slider__item-img" src="img/top-slider/02.png" alt="">
+                    <div class="header-slider__item-descr">Asiimov</div>
+                </a>
+                <a href="#" class="swiper-slide header-slider__item">
+                    <img class="header-slider__item-img" src="img/top-slider/03.png" alt="">
+                    <div class="header-slider__item-descr">Momentum</div>
+                </a>
+                <a href="#" class="swiper-slide header-slider__item">
+                    <img class="header-slider__item-img" src="img/top-slider/04.png" alt="">
+                    <div class="header-slider__item-descr">The Emperor</div>
+                </a>
+                <a href="#" class="swiper-slide header-slider__item">
+                    <img class="header-slider__item-img" src="img/top-slider/05.png" alt="">
+                    <div class="header-slider__item-descr">Asiimov</div>
+                </a>
+                <a href="#" class="swiper-slide header-slider__item">
+                    <img class="header-slider__item-img" src="img/top-slider/06.png" alt="">
+                    <div class="header-slider__item-descr">JohnyDepp</div>
+                </a>
+                <a href="#" class="swiper-slide header-slider__item">
+                    <img class="header-slider__item-img" src="img/top-slider/07.png" alt="">
+                    <div class="header-slider__item-descr">Worm God</div>
+                </a>
+                <a href="#" class="swiper-slide header-slider__item">
+                    <img class="header-slider__item-img" src="img/top-slider/08.png" alt="">
+                    <div class="header-slider__item-descr">Walnut</div>
+                </a>
+                <a href="#" class="swiper-slide header-slider__item">
+                    <img class="header-slider__item-img" src="img/top-slider/09.png" alt="">
+                    <div class="header-slider__item-descr">The Emperor</div>
+                </a>
+                <a href="#" class="swiper-slide header-slider__item">
+                    <img class="header-slider__item-img" src="img/top-slider/01.png" alt="">
+                    <div class="header-slider__item-descr">The Emperor</div>
+                </a>
+                <a href="#" class="swiper-slide header-slider__item">
+                    <img class="header-slider__item-img" src="img/top-slider/02.png" alt="">
+                    <div class="header-slider__item-descr">Asiimov</div>
+                </a>
+                <a href="#" class="swiper-slide header-slider__item">
+                    <img class="header-slider__item-img" src="img/top-slider/03.png" alt="">
+                    <div class="header-slider__item-descr">Momentum</div>
+                </a>
+                <a href="#" class="swiper-slide header-slider__item">
+                    <img class="header-slider__item-img" src="img/top-slider/04.png" alt="">
+                    <div class="header-slider__item-descr">The Emperor</div>
+                </a>
+                <a href="#" class="swiper-slide header-slider__item">
+                    <img class="header-slider__item-img" src="img/top-slider/05.png" alt="">
+                    <div class="header-slider__item-descr">Asiimov</div>
+                </a>
+                <a href="#" class="swiper-slide header-slider__item">
+                    <img class="header-slider__item-img" src="img/top-slider/06.png" alt="">
+                    <div class="header-slider__item-descr">JohnyDepp</div>
+                </a>
+                <a href="#" class="swiper-slide header-slider__item">
+                    <img class="header-slider__item-img" src="img/top-slider/07.png" alt="">
+                    <div class="header-slider__item-descr">Worm God</div>
+                </a>
+                <a href="#" class="swiper-slide header-slider__item">
+                    <img class="header-slider__item-img" src="img/top-slider/08.png" alt="">
+                    <div class="header-slider__item-descr">Walnut</div>
+                </a>
+                <a href="#" class="swiper-slide header-slider__item">
+                    <img class="header-slider__item-img" src="img/top-slider/09.png" alt="">
+                    <div class="header-slider__item-descr">The Emperor</div>
+                </a>
+            </div>
         </div>
     </div>
-    <div class="header__bottom">
-        <div class="container header__bottom-inner">
+    <div class="header__main main-header">
+        <button class="burger-btn" type="button">
+            <svg class="header__logo-img">
+                <use xlink:href="img/sprite.svg#burger-btn"></use>
+            </svg>
+        </button>
+        <div class="main-header__left">
+            <div class="logo header__logo">
+                <a class="logo__link header__logo-link" href="#">
+                    <!-- <svg class="header__logo-img" role="img" aria-label="логотип">
+                        <use xlink:href="img/sprite.svg#logo"></use>
+                    </svg> -->
+                    <img src="img/logo/logo.svg" alt="логотип SKINS.LAND" class="header__logo-img">
+                </a>
+            </div>
 
+            <div class="main-header__left-wrap">
+                @@include('../menu/_menu.html')
+
+                @@include('../social/_social.html')
+            </div>
         </div>
-    </div>
 
-    <div class="header__inner container">
-        <svg class="logo">
-            <use xlink:href="img/sprite.svg#logo"></use>
-        </svg>
-        <div class="logo header__logo">
-            <a class="logo__link" href="#">
-                <img class="logo__img" src="img/logo/header-logo.png" alt="Логотип">
-            </a>
+        <div class="main-header__right">
+            <div class="main-header__right-wrap">
+                <div class="header__balance balance-header">
+                    <div class="balance-header__info">
+                        Баланс
+                        <div class="balance-header__value">
+                            <span>1648</span>
+                            <img src="img/coin.svg" alt="монета">
+                            <!-- <svg>
+                                <use xlink:href="img/sprite.svg#coin"></use>
+                            </svg> -->
+                        </div>
+                    </div>
+                    <button class="balance-header__btn" type="button">
+                        <span>Пополнить</span>
+                    </button>
+                </div>
+
+                <div class="header__actions actions-header">
+                    <div class="actions-header__part">
+                        <a href="#" class="actions-header__item">
+                            <svg>
+                                <use xlink:href="img/sprite.svg#faq"></use>
+                            </svg>
+                            <span>FAQ</span>
+                        </a>
+                        <a href="#" class="actions-header__item">
+                            <svg>
+                                <use xlink:href="img/sprite.svg#crown"></use>
+                            </svg>
+                            <span>Топ</span>
+                        </a>
+                    </div>
+
+                    <div class="actions-header__part">
+                        <div class="actions-header__item volume-switcher">
+                            <button class="volume-switcher__item" type="button">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M15.201 2.4525L2.45099 15.2025L3.51149 16.263L7.23674 12.5377L9.95099 15.513C10.0557 15.6182 10.1894 15.6897 10.335 15.7186C10.4807 15.7475 10.6315 15.7323 10.7685 15.675C10.9055 15.6184 11.0226 15.5224 11.105 15.3992C11.1874 15.2759 11.2313 15.131 11.2312 14.9827V8.54325L16.2615 3.513L15.201 2.4525Z"
+                                        fill="#4B4C4E" />
+                                    <path
+                                        d="M11.2313 4.30125V2.98275C11.2316 2.83428 11.1878 2.68905 11.1054 2.56551C11.0231 2.44197 10.9059 2.34568 10.7687 2.28887C10.6315 2.23205 10.4806 2.21728 10.335 2.24641C10.1894 2.27554 10.0558 2.34727 9.95101 2.4525L6.73126 5.98275H4.48126C4.06876 5.98275 3.73126 6.32025 3.73126 6.73275V11.2327C3.73126 11.3917 3.79276 11.532 3.87826 11.6535L11.2313 4.30125Z"
+                                        fill="#4B4C4E" />
+                                </svg>
+                            </button>
+                            <button class="volume-switcher__item volume-switcher__item--active" type="button">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M8.53725 2.30925C8.40014 2.25267 8.24934 2.23793 8.10387 2.2669C7.95839 2.29586 7.82474 2.36722 7.71975 2.472L4.5 6.0015H2.25C1.8375 6.0015 1.5 6.33975 1.5 6.7515V11.2515C1.5 11.664 1.8375 12.0015 2.25 12.0015H4.5L7.71975 15.5325C7.82496 15.6367 7.9586 15.7075 8.10389 15.7359C8.24918 15.7644 8.39965 15.7494 8.53642 15.6926C8.67318 15.6359 8.79014 15.5401 8.87262 15.4171C8.95509 15.2941 8.99941 15.1496 9 15.0015V3.0015C9.00009 2.85326 8.95615 2.70833 8.87377 2.58509C8.79139 2.46185 8.67426 2.36584 8.53725 2.30925Z"
+                                        fill="white" />
+                                    <path
+                                        d="M10.5 3.7515V5.2515C12.5677 5.2515 14.25 6.9345 14.25 9.0015C14.25 11.0693 12.5677 12.7515 10.5 12.7515V14.2515C13.395 14.2515 15.75 11.8973 15.75 9.0015C15.75 6.10725 13.395 3.7515 10.5 3.7515Z"
+                                        fill="white" />
+                                    <path
+                                        d="M12.75 9.0015C12.75 7.76175 11.7405 6.7515 10.5 6.7515V8.2515C10.9132 8.2515 11.25 8.58825 11.25 9.0015C11.25 9.41475 10.9132 9.7515 10.5 9.7515V11.2515C11.7405 11.2515 12.75 10.2428 12.75 9.0015Z"
+                                        fill="white" />
+                                </svg>
+                            </button>
+                        </div>
+
+                        <div class="actions-header__item lang-select">
+                            <div class="lang-select__value">
+                                <svg class="lang-select__flag">
+                                    <use xlink:href="img/sprite.svg#russia"></use>
+                                </svg>
+                                <span>Русский</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__acc header-acc">
+                <div class="header-acc__avatar">
+                    <img src="img/avatar.png" alt="аватар">
+                </div>
+                <div class="header-acc__info">
+                    <div class="header-acc__name">JohnyDepp</div>
+                    <button class="header-acc__btn" type="button">
+                        <svg>
+                            <use xlink:href="img/sprite.svg#logout"></use>
+                        </svg>
+                        Выйти
+                    </button>
+                </div>
+            </div>
         </div>
-        <nav class="menu header__menu">
-            <ul class="menu__list header__menu-list">
-                <li class="menu__item header__menu-item">
-                    <a class="menu__link header__menu-link" href="#">
-
-                    </a>
-                </li>
-                <li class="menu__item header__menu-item">
-                    <a class="menu__link header__menu-link" href="#">
-
-                    </a>
-                </li>
-                <li class="menu__item header__menu-item">
-                    <a class="menu__link header__menu-link" href="#">
-
-                    </a>
-                </li>
-                <li class="menu__item header__menu-item">
-                    <a class="menu__link header__menu-link" href="#">
-
-                    </a>
-                </li>
-                <li class="menu__item header__menu-item">
-                    <a class="menu__link header__menu-link" href="#">
-
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        @@include('../burger/burger-btn/_burger-btn.html')
     </div>
 </header>

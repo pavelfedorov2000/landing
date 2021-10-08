@@ -13,7 +13,7 @@ let path = {
         libs: project_folder + "/libs/",
     },
     src: {
-        html: [source_folder + "/views/*.html", source_folder + "/views/pages/*.html", "!" + source_folder + "/views/_*.html"],
+        html: source_folder + "/**/*.html",
         css: [source_folder + "/styles/style.scss", "!" + source_folder + "/blocks/modules/**/*.scss"],
         js: source_folder + "/js/script.js",
         img: [source_folder + "/img/**/*.{jpg,png,svg,gif,ico,webp}", "!" + source_folder + "/img/svg/*.svg"],
